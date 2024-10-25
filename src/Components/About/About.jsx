@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.png";
+import AboutImg from "../../assets/rohit-programmer.jpg";
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
@@ -13,6 +13,20 @@ const About = () => {
           <img className="md:h-80" src={AboutImg} alt="About img" />
 
           <ul>
+            
+            <div className="flex gap-3 py-4">
+              <IoArrowForward size={30} className="mt-1" />
+
+              <span className="w-96">
+                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
+                  Programmer
+                </h1>
+                <p className="text-sm md:text-md leading-tight">
+                  I am good at problem solving skill and proficient in Data structure.
+                </p>
+              </span>
+            </div>
+
             <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
 
@@ -21,27 +35,11 @@ const About = () => {
                   Frontend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qui
-                  similique recusandae provident consectetur sed itaque alias
-                  sint ipsa?
+                  I am a front-end developer. I have experinece in building fast responsive and user friendly website.
                 </p>
               </span>
             </div>
-            <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
 
-              <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
-                </h1>
-                <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
-                </p>
-              </span>
-            </div>
             <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
 
@@ -50,9 +48,7 @@ const About = () => {
                   Backend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
+                  I am also excellent in backend development. I am good at optimise website with backend and APIs.
                 </p>
               </span>
             </div>
